@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProfileScaffolder", "Profil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.ProfileScaffolder", "src\Feature\ProfileScaffolder\code\Sitecore.Feature.ProfileScaffolder.csproj", "{D73EC1AF-FA12-4413-8385-5FA8CFFB4196}"
 EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.Feature.ProfileScaffolder.Core", "src\Feature\ProfileScaffolder\serialization\Sitecore.Feature.ProfileScaffolder.Core\Sitecore.Feature.ProfileScaffolder.Core.scproj", "{C2479C8A-7D53-4E3F-8C02-8DFC63D2B4F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,12 @@ Global
 		{D73EC1AF-FA12-4413-8385-5FA8CFFB4196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D73EC1AF-FA12-4413-8385-5FA8CFFB4196}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D73EC1AF-FA12-4413-8385-5FA8CFFB4196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2479C8A-7D53-4E3F-8C02-8DFC63D2B4F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2479C8A-7D53-4E3F-8C02-8DFC63D2B4F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2479C8A-7D53-4E3F-8C02-8DFC63D2B4F2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C2479C8A-7D53-4E3F-8C02-8DFC63D2B4F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2479C8A-7D53-4E3F-8C02-8DFC63D2B4F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2479C8A-7D53-4E3F-8C02-8DFC63D2B4F2}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,5 +34,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{489B548C-C8FD-4CEC-8A30-F591A6ED188F} = {FF58818C-D5E1-4470-A5BE-119388F327E2}
 		{D73EC1AF-FA12-4413-8385-5FA8CFFB4196} = {489B548C-C8FD-4CEC-8A30-F591A6ED188F}
+		{C2479C8A-7D53-4E3F-8C02-8DFC63D2B4F2} = {489B548C-C8FD-4CEC-8A30-F591A6ED188F}
 	EndGlobalSection
 EndGlobal
